@@ -26,3 +26,20 @@ We came up with 2 negatives and 1 positive risks
 Negative 1: Cybersecurity breach -during system integration /data migration vulnerabilities
 Negative 2: Delay in approval -disrupts integration timelines and increases holding costs
 Positive 1: Cross sell opportunities-expanding customer base - for GIC/ mortgage /deposit account
+
+Full Risk Assessment:
+Building on the Assignment 2 Risk Register foundation, this phase expanded the risks to 40 (37 negative, 3 positive) covering the full scope of the EQB/PC Financial integrationv- from cybersecurity and regulatory exposure to operational, financial, and strategic risks. Each risk was scored using the specific scale and categorized as High, Medium, or Low priority. A Random Forest classifier was also applied to validate the priority classifications programmatically across all 40 risks.
+ParameterValues
+Likelihood1, 3, 5, 7, 9
+Impact1, 2, 4, 6, 8, 9
+Risk ScoreL × I
+Thresholds --> High ≥ 45 | Medium 21 – 44 | Low ≤ 20
+
+Quantitative Risk Analysis:
+This phase applied quantitative methods to five priority risks selected from the Assignment risk register /risk log. Two techniques were used: Indicators & Warnings (I&W) Analysis and Monte Carlo Simulation.
+
+The I&W analysis identified measurable leading indicators (early warning signals) for each risk, assigned probability values on a 0.0–1.0 scale, and calculated Expected Monetary Value (EMV = Probability × Cost Impact).
+All financial estimates were anchored to EQB's disclosed figures - $800M deal price, $105M integration budget, and $30M annual synergy target.
+
+The Monte Carlo simulation ran 10,000 iterations per risk using PERT-based 3-point estimates (Optimistic / Most Likely / Pessimistic)
+
