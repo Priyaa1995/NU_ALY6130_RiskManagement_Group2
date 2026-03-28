@@ -1,0 +1,27 @@
+# Python 3.10.0 (Google Colab)
+
+# Core
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.2
+
+
+
+**libraries pulled from notebooks:**
+
+| Library | Used in | Import |
+|---|---|---|
+| `numpy` | Both | `import numpy as np` |
+| `pandas` | Both | `import pandas as pd` |
+| `matplotlib` | Both | `import matplotlib.pyplot as plt`, `matplotlib.patches` |
+| `seaborn` | RF notebook | `import seaborn as sns` |
+| `scikit-learn` | RF notebook | `RandomForestClassifier`, `cross_val_score`, `LeaveOneOut`, `cross_val_predict`, `classification_report`, `confusion_matrix`, `ListedColormap`, `BoundaryNorm` |
+| `random` | Monte Carlo | built-in, no install needed |
+| `warnings` | Both | built-in, no install needed |
+
