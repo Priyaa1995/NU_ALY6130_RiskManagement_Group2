@@ -43,3 +43,18 @@ All financial estimates were anchored to EQB's disclosed figures - $800M deal pr
 
 The Monte Carlo simulation ran 10,000 iterations per risk using PERT-based 3-point estimates (Optimistic / Most Likely / Pessimistic)
 
+
+
+Frameworks & Regulators Referenced:
+COSO ERM 2017
+ISO 31000:2018
+OSFI B-10 (Third-Party Risk), OSFI B-13 (Technology & Cyber Risk)
+PIPEDA / Bill C-27
+FCAC, OPC
+
+-------------Final Deliverables----------------
+ALY6130_Group2_SignatureAssessmentReport_Final
+ALY6130_Group2_EQB_PC FInancials_RT&RP.xlsx
+ALY6130_RiskRegisterAnalysis_Assignment3_Group2.ipynb 
+ALY6130_Group2_MonteCarlo_Final.ipynb 
+ALY6130_Group2_RiskAnalytics_Statistical.ipynb
